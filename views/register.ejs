@@ -9,12 +9,23 @@
         <div class="form-group">
           <label for="name">Name</label>
           <input
-            type="name"
+            type="text"
             id="name"
             name="name"
             class="form-control"
             placeholder="Enter Name"
             value="<%= typeof name != 'undefined' ? name : '' %>"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Phone">Phone Number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            class="form-control"
+            placeholder="Enter Phone Number"
+            value="<%= typeof phone != 'undefined' ? phone : '' %>"
           />
         </div>
         <div class="form-group">
@@ -26,6 +37,28 @@
             class="form-control"
             placeholder="Enter Email"
             value="<%= typeof email != 'undefined' ? email : '' %>"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Adress1">Address Line 1</label>
+          <input
+            type="text"
+            id="ad1"
+            name="ad1"
+            class="form-control"
+            placeholder="Enter Address Line 1"
+            value="<%= typeof ad1 != 'undefined' ? ad1 : '' %>"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Adress2">Address Line 2</label>
+          <input
+            type="text"
+            id="ad2"
+            name="ad2"
+            class="form-control"
+            placeholder="Enter Address Line 2"
+            value="<%= typeof ad2 != 'undefined' ? ad2 : '' %>"
           />
         </div>
         <div class="form-group">
